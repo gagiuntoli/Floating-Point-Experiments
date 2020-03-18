@@ -1,0 +1,8 @@
+# Executables
+
+DataModels
+*.out
+
+# Emacs auxiliary files
+*~
+*#
