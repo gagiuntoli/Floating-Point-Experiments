@@ -1,8 +1,5 @@
-# Executables
-
-DataModels
-*.out
-
-# Emacs auxiliary files
-*~
-*#
+*
+!*.c
+!*.cpp
+!*.md
+!Makefile
