@@ -1,6 +1,9 @@
 CPP=g++
 CC=gcc
 
+ScanfPrintf: ScanfPrintf.c
+	$(CC) $< -o $@
+
 BitRepresentationC: BitRepresentation.c
 	$(CC) $< -o $@
 
