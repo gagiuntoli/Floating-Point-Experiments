@@ -1,6 +1,9 @@
 CPP=g++
 CC=gcc
 
+LittleOrBigEndian: LittleOrBigEndian.cpp
+	$(CPP) $< -o $@
+
 ScanfPrintf: ScanfPrintf.c
 	$(CC) $< -o $@
 
