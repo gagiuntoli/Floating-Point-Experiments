@@ -11,6 +11,7 @@
 
 #include <iostream>
 #include <iomanip>
+#include <cfenv>
 #include "myfloat.hpp"
 
 using namespace std;
@@ -19,6 +20,14 @@ int main()
 {
 	float x = {1.0f};
 	unsigned int n = {0u};
+
+	/*
+	  Experiment with the Rounding Mode to check what happen
+	  Is the 'while' stopping condition always achieved?
+	*/
+	//fesetround(FE_UPWARD);
+	//fesetround(FE_DOWNWARD);
+	//fesetround(FE_TOWARDZERO);
 
 	cout ;	
 
