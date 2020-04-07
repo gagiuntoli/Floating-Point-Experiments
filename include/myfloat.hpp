@@ -26,7 +26,9 @@
 
 */
 
-#pragma once
+#include <iostream>
+
+using namespace std;
 
 #define IEEE854_SINGLE_SIGN      1
 #define IEEE854_SINGLE_EXPONENT  8
@@ -35,10 +37,6 @@
 #define IEEE854_DOUBLE_SIGN      1
 #define IEEE854_DOUBLE_EXPONENT  11
 #define IEEE854_DOUBLE_MANTISSA  52
-
-#include <iostream>
-
-using namespace std;
 
 template <typename T>
 union FloatingPoint {
