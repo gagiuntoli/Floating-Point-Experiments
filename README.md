@@ -1,9 +1,20 @@
-# Floating Point Experimens
+# Floating Point Experiments
 
-Code use to understand into details the most important aspects about
-IEEE floating point arithetics. This repository includes a variety of
-topics such as:
+Examples based on the book:
 
- [1) Internal floating point representation.](./BitRepresentation)
+**Numerical Computing with IEEE Floating Point Arithmetic** - **M. Overton**
 
- [2) System-dependent caracteristics](./SystemInfo)
+ [* Visualize the floating point binary representation.](./Binary_Representation)
+
+ [* Check the system properties](./System_Information)
+
+ [* Check endianess](./Little_Endian)
+
+ [* IO concerns in C](./Floating_Point_IO)
+
+ [* Experiments with loops](./Loops)
+
+ [* Computing compound interest](./Compound_Interest)
+
+ [* Computing exponential formula](./Exponential)
+
